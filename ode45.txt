@@ -1,0 +1,5 @@
+y0=1;
+xspan=[0,1];  # interval
+f=@(x,y) 3*x+y/2;    # function
+[x,y]=ode45(f,xspan,y0);
+plot(x,y,'r')

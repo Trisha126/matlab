@@ -1,0 +1,4 @@
+y=dsolve('Dy=3*x+y/2','y(0)=1','x')   # function
+x=0:0.1:1;  #0,1 is the interval
+z=eval(y);
+plot(x,z,'*')
